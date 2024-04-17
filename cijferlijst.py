@@ -34,7 +34,7 @@ def print_statestieken(scores):
 
 def main():
 
-    file_name = "Cijfers"
+    file_name = "cijferlijst.txt"
     genereer_cijfers(file_name)
     scores = read_scores(file_name)
     print_statestieken(scores)
